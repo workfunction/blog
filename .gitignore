@@ -1,6 +1,7 @@
 # npm
 package-lock.json
 node_modules
+*.lock
 
 # vscode
 .vscode
@@ -13,7 +14,7 @@ dist
 todo/
 
 # 读书笔记
-notes/
+#notes/
 
 # 剑指offer刷题笔记
 剑指offer刷题笔记/index.js

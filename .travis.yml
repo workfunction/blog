@@ -1,14 +1,18 @@
 sudo: true
 branches:
   only:
-    - master
+  - master
 language: node_js
 node_js:
-  - "10"
+- '12'
+before_install:
+- export TZ=Asia/Taipei
 install:
-  - npm install
-before_script:
-  - git clone "https://godbmw:$GITHUB_TOKEN@github.com/dongyuanxin/notes.git" notes
+- npm install
+before_script: 
 script:
-  - npm run check
-  - ./deploy.sh
+- npm run check
+- "./deploy.sh"
+env:
+  global:
+  - secure: bpIzVhOOKkK/BY9aQwOuo5OwCHTjqKGMV5cljfQMvfs9c7I5j4JanZFJBpz5kQb67URvUoXl98ubZ1B5ZZw77oO7mXv8vFCFoLUubVUrAbmSb6wrUWaBQlVY7AkOqJj5QevNsfXDd7gFUlI1aqbJ+7gEWnl/Sxn8au3cQ1FdDtatR5FINbkKhNNNOvA1jzU8kxXCzcKFGKtKVxvnRRmjDJDBws/2/QSBeP/LteXIJtCjyeTF0BHfUbQ501Jx96bK8CliQI2/4wmAKtT8/LYSpjftLkNdRomnKT9nOZkt+ZjmUSwt45858tcdrUJ19KDihiK9tcN0tp8xMG83tGGBxvdItCIYWO/BiHIYDrYHCh9OWnljCG8a9tJ+QdRXUUwRR5L+hg3VuYuvS2ZXTaRFoxW6nuiHL8eYEDrFuDSORQ7w4Nqu5umN/oUvc0Cp8Osnlaexc2RRD5rqUX0ts/2SySai0Nmf/HIbX5eVeEvyyOu8BuAOhApJBT2Fc00Xf3lhAw/oeBW2qjYmfq0iECFwSB8CC+JF+zukpeIxgjDtxgNFXO4H5RkYJzG4J+q5J5Qv4kkiPqndk+UDUjosy5xwL45/bm6bC8OV45XZk7JDFqNqZkJ8e2GIiqTCQIZZ7wUpwtuRRee++tIIa42vQysXV0k44TjyXSbreteaUm7FNmo=

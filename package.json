@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "集博客之精华而生的目录，已有前端知识体系梳理、设计模式手册、Webpack4教程，欢迎食用",
+  "description": "才疏學淺的系統軟體初心者",
   "main": "index.js",
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dongyuanxin/blog.git"
+    "url": "git+https://github.com/workfunction/blog.git"
   },
   "author": "心谭",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dongyuanxin/blog/issues"
+    "url": "https://github.com/workfunction/blog/issues"
   },
-  "homepage": "https://github.com/dongyuanxin/blog#readme"
+  "homepage": "https://github.com/workfunction/blog#readme"
 }

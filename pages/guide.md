@@ -1,11 +1,11 @@
 ---
-title: "导航"
+title: "導航"
 permalink: "guide"
 comment: true
 single: true
 ---
 
-> 最近更新了下面这些文章 👇
+> 最近更新了這些文章 👇
 
 <ul class="page-guide-ul">
   <li 
@@ -31,7 +31,7 @@ export default {
       posts: [],
       page: 1,
       num: 0,
-      btnInfo: '加载更多',
+      btnInfo: '載入更多',
       showBtn: true,
       timeout: null,
     }
@@ -84,7 +84,7 @@ export default {
       }
 
       if (this.page * this.step >= this.num) {
-        this.btnInfo = '加载完成'
+        this.btnInfo = '載入完成'
         this.$refs.btn.style.opacity = 0
         this.timeout = setTimeout(() => this.showBtn = false, 300)
       } else {

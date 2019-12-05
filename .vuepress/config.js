@@ -9,14 +9,14 @@ module.exports = {
     require("./plugins/my-loader"),
     require("vuepress-plugin-viewer"),
     "@vuepress/back-to-top",
-    ["@vuepress/google-analytics", { ga: "UA-124601890-1" }],
+    ["@vuepress/google-analytics", { ga: "UA-69357257-2" }],
     [
       "@vuepress/pwa",
       {
         serviceWorker: true,
         updatePopup: {
-          message: "发现页面有新内容",
-          buttonText: "刷新"
+          message: "有新內容更新囉！",
+          buttonText: "重新整理"
         }
       }
     ],
@@ -25,15 +25,15 @@ module.exports = {
       {
         choosen: "gitalk",
         options: {
-          clientID: "6558fdf298fa596c5d8c",
-          clientSecret: process.env.clientSecret || "",
-          repo: "blog",
-          owner: "dongyuanxin",
-          admin: ["dongyuanxin"],
+          clientID: "ae110df0ee4eef495fb3",
+          clientSecret: process.env.CLIENT_SECRET || "",
+          repo: "workfunction.github.io",
+          owner: "workfunction",
+          admin: ["workfunction"],
           id: "<%- frontmatter.commentid || frontmatter.permalink %>", // Ensure uniqueness and length less than 50
           distractionFreeMode: false, // Facebook-like distraction free mode
           labels: ["Gitalk", "Comment"],
-          title: "「评论」<%- frontmatter.title %>",
+          title: "「評論」<%- frontmatter.title %>",
           body:
             "<%- frontmatter.title %>：<%- window.location.origin %><%- frontmatter.to.path || window.location.pathname %>"
         }

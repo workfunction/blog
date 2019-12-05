@@ -1,17 +1,19 @@
 const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
-  repo: "dongyuanxin/blog",
+  repo: "workfunction/blog",
   navbar: true,
   editLinks: true,
-  editLinkText: "在 GitHub 上编辑此页",
-  lastUpdated: "更新于",
+  editLinkText: "在 GitHub 上編輯",
+  lastUpdated: "更新於",
   sidebar,
   nav: [
     {
       text: "最新",
       link: "/guide/"
     },
+
+    /*
     // 前端
     {
       text: "前端",
@@ -31,45 +33,6 @@ module.exports = {
         { text: "ES6", link: "/passages/2019-04-09-es6/" },
         { text: "HTML5", link: "/passages/2019-04-10-html5-drag-drop/" },
         { text: "浏览器与安全", link: "/passages/2019-05-15-browser/" }
-      ]
-    },
-    // UI
-    {
-      text: "UI",
-      items: [
-        { text: "css", link: "/passages/2018-06-05-border-sizing/" },
-        {
-          text: "scss",
-          link: "/passages/2019-05-17-why-i-stopped-using-sass/"
-        },
-        { text: "动画", link: "/passages/2019-07-16-font-animation/" }
-      ]
-    },
-    // 算法
-    {
-      text: "算法",
-      items: [
-        {
-          text: "剑指offer",
-          link: "/passages/2019-06-23-algorithm-offer/"
-        },
-        {
-          text: "设计模式",
-          link: "/passages/2018-10-23-singleton-pattern/"
-        }
-      ]
-    },
-    // Node
-    {
-      text: "Node",
-      items: [
-        { text: "Koa", link: "/passages/2019-06-21-deep-in-koa/" },
-        {
-          text: "命令行",
-          link: "/passages/2019-05-07-play-node-shell/"
-        },
-        { text: "测试", link: "/passages/2019-05-04-jest-base/" },
-        { text: "Serverless", link: "/passages/2019-08-14-game-gomoku/" }
       ]
     },
     // 其它
@@ -100,5 +63,6 @@ module.exports = {
         }
       ]
     }
+    */
   ]
 };
