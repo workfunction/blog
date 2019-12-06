@@ -33,7 +33,7 @@
     "type": "git",
     "url": "git+https://github.com/workfunction/blog.git"
   },
-  "author": "心谭",
+  "author": "workfunction",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/workfunction/blog/issues"

@@ -16,15 +16,17 @@ footer: MIT Licensed | Copyright © 2019 workfunction | Powered by 心譚
 
 > 這是一個系統軟體初心者初入職場的紀錄。[最新文章](https://workfunction.github.io/guide/)。
 
-## Career
+## 初入職涯
 
-## Kernel
+## 系統核心
 
-## Embedded
+## 嵌入式
 
-## Mountain
+## 爬山瑣事
 
-## Updates
+- **[Oruxmaps - 地圖、行跡、GPS，一手搞定](/passages/2019-12-06-ourxmaps)**
+
+## 近況更新
 
 ## 📮 聯絡方式
 
