@@ -22,6 +22,8 @@ footer: MIT Licensed | Copyright © 2019 workfunction | Powered by 心譚
 
 ## 嵌入式
 
+- **[移植 OpenSSH 至 Arm64 Linux 開發板](/passages/2020-01-21-openssh-aarch64)**
+
 ## 爬山瑣事
 
 - **[Oruxmaps - 地圖、行跡、GPS，一手搞定](/passages/2019-12-06-ourxmaps)**
